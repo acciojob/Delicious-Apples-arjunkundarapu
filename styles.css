@@ -1,1 +1,91 @@
 /* your code here */
+*{
+	font-family:sans-serif;
+}
+body{
+	background-color:#10e37f;
+	display:flex;
+	justify-content:center;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+.controls i{
+	margin:2px;
+}
+.product{
+	background-color:white;
+	display:flex;
+	margin:20px;
+	padding:5px;
+	align-items:center;
+	position:relative;
+}
+.product__photo{
+	box-shadow:-3px 4px 10px gray;
+	height:90%;
+	position:relative;
+	left:-20px;
+	background-color:white;
+}
+.photo-main{
+	background-color:#a7e523;
+	position:relative;
+}
+.photo-main img{
+	width:200px;
+	position:relative;
+	left:-40px;
+}
+.photo-album{
+	background-color:white;
+	display:flex;
+	justify-content:center;
+}
+.photo-album ul,.variant ul{
+	display:flex;
+	list-style:none;
+	justify-content:center;
+}
+.photo-album li,.variant li{
+	border:1px solid gray;
+	margin:2px;
+}
+li img{
+	width:40px;
+}
+.product__info{
+	padding:5px;
+}
+h1{
+	font-size:25px;
+	font-weight:500px;
+	margin-bottom:5px;
+}
+.title span{
+	color:grey;
+	font-size:10px;
+}
+.price{
+	color:red;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.price span{
+	font-size:35px;
+}
+h3{
+	font-size:16px;
+	color:gray;
+	font-weight:200;
+}
+.btn{
+	background-color:red;
+	color:white;
+	border:none;
+	border-radius:4px;
+	padding:5px;
+	box-shadow:0px 2px 5px gray;
+}
